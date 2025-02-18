@@ -1,0 +1,31 @@
+CRIAR UM OBJETO CARRO
+
+    const carro = {
+        tipo: "fiat",
+        modelo: "500",
+        cor: "branco"
+    };
+
+METODO E ARGUMENTO
+
+    document.getElementById('botao');  //// document da acesso ao html para o javascrit
+
+TESTE
+
+    alert('oi'); 
+
+ESCREVER OS OBJETIVOS
+
+Objetivo 1 - quando clicarmos na seta  de avançar temos que mostrar o proximo cartão da lista
+    - passo 1 - dar um jeito de  pegar o elemento html da seta avançar
+    - passo 2 - dar um jeito de identificar o clique do usuário da seta avançar
+        - passo 3 - fazer aparecer o proximo cartão da lista
+        - passo 4 - buscar o cartão que esta selecionado e esconder
+
+Objetivo 2 - quando clicarmos na seta de voltar temos que mostrar o cartão anterior da lista
+    - passo 1 - dar um jeito de  pegar o elemento html da seta voltar
+    - passo 2 - dar um jeito de identificar o clique do usuário da seta voltar
+        - passo 3 - fazer aparecer o cartão anterior da lista
+        - passo 4 - buscar o cartão que esta selecionado e esconder
+
+console.log(document) >>>>> pega todo html
